@@ -1,0 +1,149 @@
+<style>
+				
+				* {
+					font:SourceSansPro, Sequel Sans Heavy;
+				}
+
+				body {
+					background-color:#fbe7e6;
+					position:relative;
+				}
+
+				a {
+  					color: black;
+   					text-decoration: none;
+  				}
+				.header {
+					background-color: #0f85ef;
+					position:absolute;
+					top: -10px;
+					left: -10px;
+					width: 1521px; 
+					height: 145px; 
+					border-bottom: 9px solid #020101; 
+					margin:auto;
+				}
+					#logo {
+  						position:absolute;
+  						top: 10px;
+  						left: 500px;
+					}
+					
+					#logo-2 {
+  						position:absolute;
+  						top: 0px;
+  						left: 650px;
+					}
+				.introduction { 
+						width: 900px; 
+  						height: 30px;
+  						position:absolute;
+						top: 200px;
+						left: 200px;
+						vertical-align: middle;
+						line-height: 31px;
+						text-align:center;
+  						font-size: 30px;
+						font-family: SourceSansPro;
+					}
+				.navigation-tab{
+					top:180px;
+					left:1px;
+					width:150px;
+					height:170px;
+					position:fixed;
+					border: 5px solid #020101;
+					background-color: #0f85ef;
+					}
+					.anchors {
+					text-align: center;
+					position: relative;
+					top: 10px;
+					}
+
+					.anchors a{
+					font-size: 25px;
+					color: black;
+					text-decoration: none;
+					font-family: Bebas Neue;
+					}
+
+					.anchors a:hover {
+					text-decoration: underline;
+					color: white;
+						}
+				aside{
+					background-color: #0f85ef;
+					position:absolute;
+					top: 180px;
+					left: 1250px;
+					width: 250px; 
+					height: 250px; 
+					border: 5px solid #020101;
+					text-align: center;
+						}
+					.facebook {
+ 						width:120px;
+						height:120px;
+						position:absolute;
+						top:80px;
+						left:0;
+						right:0;	
+						}
+					.facebook .logo {
+						background: url('../images/logo-3.png') no-repeat;
+						width: 120px;
+						height: 120px;
+						float: left;
+					}
+					.facebook .logo:hover {
+						background: url('../images/logo-3-hover.png') no-repeat;
+						width: 120px;
+						height: 120px;
+						float: left;
+					}
+					.twitter {
+ 						width:120px;
+						height:120px;
+						position:absolute;
+						top:10px;
+						left:130px;	
+						}
+					.twitter .logo {
+						background: url('../images/logo-4.png') no-repeat;
+						width: 120px;
+						height: 120px;
+						float:left;
+					}
+					.twitter .logo:hover {
+						background: url('../images/logo-4-hover.png') no-repeat;
+						width: 120px;
+						height: 120px;
+						float:left;
+					}
+					iframe {
+						position: absolute;
+						height: 510px;
+						width: 850px;
+						background-color: #B1A29B;
+						border: 5px solid #5d5c61;
+						left:250px;
+						top: 300px;
+					}
+	  				.footer {
+  						background-color: #0f85ef;
+						position:absolute;
+						top:1000px;
+						left:-10px;
+						width: 1521px; 
+						height: 145px; 
+						border-top: 9px solid #020101; 
+						margin:auto;
+					}
+  						.copyrights {
+  							font-size:25px;
+  							position:absolute;
+  							left:550px; 
+  							top:55px;
+						}
+</style>
